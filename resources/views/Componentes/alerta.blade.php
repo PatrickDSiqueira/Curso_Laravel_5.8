@@ -1,4 +1,6 @@
-<div class="box info">
-    <div class="title">Titulo do Alerta</div>
-    <div class="msg">Conteudo do Texto do Alerta</div>
+<div class="box {{$tipoAlerta}}">
+    <div class="title">{{$titulo}}</div>
+    <div class="msg">
+        {{$slot}}
+    </div>
 </div>
